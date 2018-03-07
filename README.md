@@ -10,7 +10,7 @@ Demo Link: [here]()
 
 ![](starter-img.png)
 ## MY CITY
-Welcome! Today we explore the history of my city. Surrounded by a mysterious goop that no local seems bothered by (except for its possible influence on their strange taste in architechture), it is a hilly paradise filled with an amalgamation of structures they call home  - all manufactured by yours truly on Maya.
+Welcome! Today we explore the history of my city. Surrounded by a mysterious goop that no local seems bothered by (except for its possible influence on their strange taste in architecture), it is a hilly paradise filled with an amalgamation of structures they call home  - all manufactured by yours truly on Maya.
 
 ![](expand0.png)
 With The Initial Grammar, there was nothing but goop in sight.
@@ -21,16 +21,16 @@ Then came The First Expansion; miraculously, land began to rise from the goop.
 ![](expand2.png)
 During The Second Expansion, people built bridges throughout the land in order to travel, however none have yet to settle down.
 
-The toggle bar floating on the side of our worl allows you to explore alternate realities - where our water level differs. Our MST algorithm always ensures we have the most efficient bridge structure. For clarity in this walkthrough, however, we'll stick to Water Amount 3.
+The toggle bar floating on the side of our world allows you to explore alternate realities where our water levels differ. Our MST algorithm always ensures we have the most efficient bridge structure. For clarity in this walkthrough, however, we'll stick to Water Amount 3.
 
 ![](expand3.png)
 The Third occurs, and people begin to realize how great residing alongside goop is. They build the foundation to their houses, making sure not to work over trees, and they're more likely to reside on the flatter plains for ease of construction (and also less trees). They based their logic off of noise to keep things consistent.
 
 ![](expand4.png)
-With The Fourth Expansion, the residents are fairly settled in, and decided on two main architechtural styles. The building style consisting of odd orbs can be slightly fickle, so for safety the residents were more inclined to build those on the flatter surfaces.
+With The Fourth Expansion, the residents are fairly settled in, and decided on two main architectural styles. The building style consisting of odd orbs can be slightly fickle, so for safety the residents were more inclined to build those on the flatter surfaces.
 
 ![](expand5.png)
-As more Expansions come along, more people move into our weird little town. To accomodate, the buildings are extended upwards. each floor is rotated from the previous, and the buildings that had roofs retain them.
+As more Expansions come along, more people move into our weird little town. To accommodate, the buildings are extended upwards. Each floor is rotated from the previous, and the buildings that had roofs retain them.
 
 ![](expand6.png)
 Who knows? One day our city may even expand to a monstrosity like this! Feel free to experiment with our simulation, linked above, to explore the possibilities.
