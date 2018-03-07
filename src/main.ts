@@ -16,7 +16,7 @@ import {City} from './City';
 // This will be referred to by dat.GUI's functions that add GUI elements.
 const controls = {
   Expansions: 6,
-  'Water Amount': 4,
+  'Water Amount': 3,
   'Trees?': true
 };
 
@@ -56,7 +56,7 @@ function main() {
   const camera = new Camera(vec3.fromValues(-0.85, 0.9, 3), vec3.fromValues(0, 0, 0));
 
   const renderer = new OpenGLRenderer(canvas);
-  renderer.setClearColor(0.2, 0.2, 0.2, 1);
+  renderer.setClearColor(0.1, 0.1, 0.2, 1);
   gl.enable(gl.DEPTH_TEST);
 
   const lambert = new ShaderProgram([

@@ -2,6 +2,9 @@ import {vec3} from 'gl-matrix';
 import {mat4, vec4} from 'gl-matrix';
 import {gl} from './globals';
 
+// ALL CLASSES IN THIS FILE ARE ADAPTED FROM THE JAVA CODE PROVIDED IN
+// ALGORITHMS: FOURTH EDITION by ROBERT SEDGEWICK AND KEVIN WAYNE
+// can be found here: https://algs4.cs.princeton.edu/code/
 
 export class MinPQ {
     private maxN: number;        // maximum number of elements on PQ

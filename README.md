@@ -33,7 +33,7 @@ With The Fourth Expansion, the residents are fairly settled in, and decided on t
 As more Expansions come along, more people move into our weird little town. To accommodate, the buildings are extended upwards. Each floor is rotated from the previous, and the buildings that had roofs retain them.
 
 ![](expand6.png)
-Who knows? One day our city may even expand to a monstrosity like this! Feel free to experiment with our simulation, linked above, to explore the possibilities.
+Who knows? One day our city may even expand to a monstrosity like this! Feel free to experiment with our simulation, linked above, to explore the possibilities. (Additionally, our gloomy grey skies have cleared up since the taking of these pictures :D )
 
 
 ## GRAMMAR
@@ -46,7 +46,7 @@ Until an array's length is 1, each expansion uses the pop() function to get the 
 
 * "W"  ->  ["W", "WLLL..."]
 * "L"  ->  ["L", "L[UG]", "L[UG]", ...]
-* "B"  ->  can be [ ] or ["(-...)", ...], presense of "-" not guaranteed
+* "B"  ->  can be [ ] or ["(-...)", ...], presence of "-" not guaranteed
 * "("  ->  ["("]
 * ")"  ->  [")"]
 * "-"  ->  ["-"]
@@ -74,7 +74,7 @@ Until an array's length is 1, each expansion uses the pop() function to get the 
 * "U"  ->  Marks the first ring of possible houses on a land blob
 * "G"  ->  Marks the second ring of possible houses on a land blob
 * "="  ->  Marks the possibility of a roof
-* "h"  ->  Decides whether a house or tree is drawn in the present location. (If a house, draw the foundation, if a tree, draw the tree)
+* "h"  ->  Decides whether a house or tree is drawn in the present location. (If a house, draw the foundation and set varying house widths; if a tree, draw the tree)
 * "s"  ->  Draws each story of a house - shape varies per house type (blocky house vs cool house) and per story type (ground floor vs middle floor)
 * "r"  ->  May or may not draw a roof
 * "<"  ->  Shifts turtle position outward (Z-direction)
