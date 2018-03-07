@@ -3741,7 +3741,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 // This will be referred to by dat.GUI's functions that add GUI elements.
 const controls = {
     Expansions: 6,
-    'Water Amount': 4,
+    'Water Amount': 3,
     'Trees?': true
 };
 let city;
@@ -3774,7 +3774,7 @@ function main() {
     loadScene(6, 3, true);
     const camera = new __WEBPACK_IMPORTED_MODULE_4__Camera__["a" /* default */](__WEBPACK_IMPORTED_MODULE_0_gl_matrix__["c" /* vec3 */].fromValues(-0.85, 0.9, 3), __WEBPACK_IMPORTED_MODULE_0_gl_matrix__["c" /* vec3 */].fromValues(0, 0, 0));
     const renderer = new __WEBPACK_IMPORTED_MODULE_3__rendering_gl_OpenGLRenderer__["a" /* default */](canvas);
-    renderer.setClearColor(0.2, 0.2, 0.2, 1);
+    renderer.setClearColor(0.1, 0.1, 0.2, 1);
     gl.enable(gl.DEPTH_TEST);
     const lambert = new __WEBPACK_IMPORTED_MODULE_6__rendering_gl_ShaderProgram__["b" /* default */]([
         new __WEBPACK_IMPORTED_MODULE_6__rendering_gl_ShaderProgram__["a" /* Shader */](gl.VERTEX_SHADER, __webpack_require__(69)),
@@ -16244,6 +16244,9 @@ class Noise {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+// ALL CLASSES IN THIS FILE ARE ADAPTED FROM THE JAVA CODE PROVIDED IN
+// ALGORITHMS: FOURTH EDITION by ROBERT SEDGEWICK AND KEVIN WAYNE
+// can be found here: https://algs4.cs.princeton.edu/code/
 class MinPQ {
     /**
      * Initializes an empty indexed priority queue with indices between {@code 0}
