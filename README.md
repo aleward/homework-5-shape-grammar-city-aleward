@@ -1,6 +1,92 @@
 
 # Project 5: Shape Grammar
 
+
+Name: Alexis Ward
+
+PennKey: aleward
+
+Demo Link: [here]()
+
+![](starter-img.png)
+## MY CITY
+Welcome! Today we explore the history of my city. Surrounded by a mysterious goop that no local seems bothered by (except for its possible influence on their strange taste in architechture), it is a hilly paradise filled with an amalgamation of structures they call home  - all manufactured by yours truly on Maya.
+
+![](expand0.png)
+With The Initial Grammar, there was nothing but goop in sight.
+
+![](expand1.png)
+Then came The First Expansion; miraculously, land began to rise from the goop.
+
+![](expand2.png)
+During The Second Expansion, people built bridges throughout the land in order to travel, however none have yet to settle down.
+
+The toggle bar floating on the side of our worl allows you to explore alternate realities - where our water level differs. Our MST algorithm always ensures we have the most efficient bridge structure. For clarity in this walkthrough, however, we'll stick to Water Amount 3.
+
+![](expand3.png)
+The Third occurs, and people begin to realize how great residing alongside goop is. They build the foundation to their houses, making sure not to work over trees, and they're more likely to reside on the flatter plains for ease of construction (and also less trees). They based their logic off of noise to keep things consistent.
+
+![](expand4.png)
+With The Fourth Expansion, the residents are fairly settled in, and decided on two main architechtural styles. The building style consisting of odd orbs can be slightly fickle, so for safety the residents were more inclined to build those on the flatter surfaces.
+
+![](expand5.png)
+As more Expansions come along, more people move into our weird little town. To accomodate, the buildings are extended upwards. each floor is rotated from the previous, and the buildings that had roofs retain them.
+
+![](expand6.png)
+Who knows? One day our city may even expand to a monstrosity like this! Feel free to experiment with our simulation, linked above, to explore the possibilities.
+
+
+## GRAMMAR
+### Expansions:
+The contents of each array below are determined by the input parameters.
+
+Until an array's length is 1, each expansion uses the pop() function to get the correct string.
+
+(Take "..." to mean an indefinite amount of these characters, not an actual element to the grammar)
+
+* "W"  ->  ["W", "WLLL..."]
+* "L"  ->  ["L", "L[UG]", "L[UG]", ...]
+* "B"  ->  can be [ ] or ["(-...)", ...], presense of "-" not guaranteed
+* "("  ->  ["("]
+* ")"  ->  [")"]
+* "-"  ->  ["-"]
+* "U"  ->  ["[[<h=]+[<h=]+[<h=]+[<h=]+[<h=]+[<h=]+[<h=]+[<h=]+[<h=]]"]
+* "G"  ->  ["[[<<h=]* [<<h=]* [<<h=]* [<<h=]* [<<h=]* [<<h=]* [<<h=]* [<<h=]* [<<h=]]"]
+* "="  ->  ["r"]
+* "h"  ->  ["hs"]
+* "s"  ->  ["s"]
+* "r"  ->  ["r"]
+* "<"  ->  ["<"]
+* "+"  ->  ["+"]
+* "* "  ->  ["* "]
+* "["  ->  ["["]
+* "]"  ->  ["]"]
+
+
+### Rules:
+
+* "W"  ->  Draws water block
+* "L"  ->  Draws land blobs
+* "B"  ->  Marks the existance of a bridge (its expansions signify actual bridge components)
+* "("  ->  Adds a new turtle to the stack, computes bridge direction and draws the first staircase to the bridge
+* ")"  ->  Draws the ending staircase to the current bridge and removes the last turtle from the stack
+* "-"  ->  Draws each walkway component of a bridge
+* "U"  ->  Marks the first ring of possible houses on a land blob
+* "G"  ->  Marks the second ring of possible houses on a land blob
+* "="  ->  Marks the possibility of a roof
+* "h"  ->  Decides whether a house or tree is drawn in the present location. (If a house, draw the foundation, if a tree, draw the tree)
+* "s"  ->  Draws each story of a house - shape varies per house type (blocky house vs cool house) and per story type (ground floor vs middle floor)
+* "r"  ->  May or may not draw a roof
+* "<"  ->  Shifts turtle position outward (Z-direction)
+* "+"  ->  Rotates turtle around Y-axis 72 degrees
+* "* "  ->  Rotates turtle around Y-axis 40 degrees
+* "["  ->  Creates new turtle state
+* "]"  ->  Restores previous turtle state
+
+
+
+
+## Instructions
 For this assignment you'll be building directly off of the L-system code you
 wrote last week.
 
