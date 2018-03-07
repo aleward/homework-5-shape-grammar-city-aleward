@@ -27,7 +27,7 @@ The toggle bar floating on the side of our world allows you to explore alternate
 The Third occurs, and people begin to realize how great residing alongside goop is. They build the foundation to their houses, making sure not to work over trees, and they're more likely to reside on the flatter plains for ease of construction (and also less trees). They based their logic off of noise to keep things consistent.
 
 ![](expand4.png)
-With The Fourth Expansion, the residents are fairly settled in, and decided on two main architectural styles. The building style consisting of odd orbs can be slightly fickle, so for safety the residents were more inclined to build those on the flatter surfaces.
+With The Fourth Expansion, the residents are fairly settled in, and decided on two main architectural styles. The building style consisting of odd orbs can be slightly fickle, so, for safety, the residents were more inclined to build those on the flatter surfaces.
 
 ![](expand5.png)
 As more Expansions come along, more people move into our weird little town. To accommodate, the buildings are extended upwards. Each floor is rotated from the previous, and the buildings that had roofs retain them.
